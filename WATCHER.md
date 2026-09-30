@@ -51,8 +51,8 @@ check `state.json.last_error_notified`) and stop.
 whose text changed, since he sometimes appends to an existing day's post. For a changed
 entry, look only at what was added or edited.
 
-If both lists are empty, update `last_run`, commit, and stop. **Don't send any Slack
-message when nothing changed.**
+If both lists are empty and step 1 changed nothing, stop. Don't edit or commit
+`state.json`, and **don't send any Slack message when nothing changed.**
 
 ## 3. Classify what each new/changed entry asks for
 
@@ -153,6 +153,8 @@ python3 blogwatch.py commit            # or: python3 blogwatch.py commit /tmp/bl
 ```
 Update `last_run` (ISO timestamp) and edit `pending_questions`/`created_tasks` in `state.json`.
 Then `git add state.json && git commit -m "watcher: <what happened>" && git push origin main`.
+Only commit when this run changed something real: a new or edited post, a task, or a
+question asked or answered. Never make a commit whose only change is `last_run`.
 If a stop hook says a `claude/...` branch has unpushed commits, don't push that branch.
 Your state is already on `main`, so ignore the hook and finish.
 The state must persist, or you'll notify about the same posts again.
