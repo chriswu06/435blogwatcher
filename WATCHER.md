@@ -11,6 +11,14 @@ The routine prompt supplies these values: `SLACK_WEBHOOK_URL`, `SLACK_CHANNEL_ID
 `GOOGLE_CLIENT_ID`, `GOOGLE_CLIENT_SECRET`, `GOOGLE_REFRESH_TOKEN`. Never write any of these into a repo file.
 Timezone for everything is **America/New_York**.
 
+## 0. Work on main
+
+Before anything else, run:
+```
+git fetch -q origin main && git checkout -q -B main origin/main
+```
+Do all your work on `main`, and never create or push any other branch (no `claude/...` branches).
+
 ## 1. Handle answers to earlier questions
 
 `state.json` → `pending_questions` is a list of
@@ -136,8 +144,9 @@ question was asked in that message.
 python3 blogwatch.py commit            # or: python3 blogwatch.py commit /tmp/blog.html
 ```
 Update `last_run` (ISO timestamp) and edit `pending_questions`/`created_tasks` in `state.json`.
-Then `git add state.json && git commit -m "watcher: <what happened>" && git push origin HEAD:main`.
-If pushing to main is rejected, push to the current branch and say so in the Slack message.
+Then `git add state.json && git commit -m "watcher: <what happened>" && git push origin main`.
+If a stop hook says a `claude/...` branch has unpushed commits, don't push that branch.
+Your state is already on `main`, so ignore the hook and finish.
 The state must persist, or you'll notify about the same posts again.
 
 ## Safety
