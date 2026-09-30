@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """One-time: get a Google Tasks refresh token for the watcher routine.
 
-  python3 get_token.py path/to/client_secret.json
+  python3 get_token.py path/to/client_secret.json [out.json]
 
 Opens a browser for Google sign-in, catches the redirect on localhost, and prints
 the client id/secret + refresh token to paste into the routine config. Stdlib only.
@@ -57,5 +57,6 @@ if "refresh_token" not in tok:
 
 out = {"GOOGLE_CLIENT_ID": cid, "GOOGLE_CLIENT_SECRET": secret,
        "GOOGLE_REFRESH_TOKEN": tok["refresh_token"]}
-json.dump(out, open("google_tasks_creds.json", "w"), indent=1)
-print("\nSaved to google_tasks_creds.json (do NOT commit this file).")
+dest = sys.argv[2] if len(sys.argv) > 2 else "google_tasks_creds.json"
+json.dump(out, open(dest, "w"), indent=1)
+print(f"\nSaved to {dest} (do NOT commit this file).")
