@@ -31,9 +31,23 @@
    "due": "2026-10-01",
    "notes": "Teams pitch design options to alumni experts on Thursday 10/1. https://seam.cs.umd.edu/purtilo/435/blog.html#2026-09-25",
    "asked_at": "2026-09-30T15:28:05.366647Z"
+  },
+  {
+   "id": "Q-20260927-1",
+   "title": "[435] Alumni/visitor pitch session (Thu 10/1)",
+   "due": "2026-10-01",
+   "notes": "Class event from 9/25 and 9/27 posts; https://seam.cs.umd.edu/purtilo/435/blog.html#2026-09-27",
+   "asked_at": "2026-09-30T15:28:23.553959Z"
   }
  ],
- "last_run": "2026-09-30T15:28:05.366647Z",
+ "last_run": "2026-09-30T15:28:23.553959Z",
  "last_error_notified": "2026-09-30T15:20:01.047015Z",
- "created_tasks": []
+ "created_tasks": [
+  {
+   "title": "[435] Push amazon.docx + heilmeier.docx to team repo (due Mon 8am)",
+   "task_id": "NmtXQmgyUDJ1WUhhVm9xaw",
+   "due": "2026-10-05",
+   "source_entry": "2026-09-27"
+  }
+ ]
 }
