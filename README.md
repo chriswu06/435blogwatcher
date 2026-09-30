@@ -1,6 +1,6 @@
 # 435blogwatcher
 
-A scheduled Claude Code cloud routine checks the CMSC435 course blog every hour, from
+A scheduled cloud routine checks the CMSC435 course blog every hour, from
 7am to midnight ET. When there's a new post, it:
 
 1. Pings Slack through an incoming webhook, so the phone gets a push notification.
@@ -13,6 +13,3 @@ A scheduled Claude Code cloud routine checks the CMSC435 course blog every hour,
 - `tasks.py`: minimal Google Tasks client. `get_token.py`: one-time OAuth to get a refresh token.
 - `state.json`: entries already processed, pending questions, and tasks created. The
   routine commits changes to this file.
-
-The Slack webhook URL is kept in the routine's prompt, not in this public repo.
-Manage the routine at https://claude.ai/code/routines.
