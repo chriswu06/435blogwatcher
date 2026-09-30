@@ -78,8 +78,16 @@ Purtilo's idioms:
   → due Monday 8:00am, and the work should be finished over the weekend.
 - "harvest it Wednesday early" → the real deadline is the end of the day before.
 
-Skip any task whose deadline has already passed at the time of this run. Mention it in
-the summary as "(deadline already passed)".
+Watch the sequencing. If a post says to do X *after* some later event ("first focus on
+Thursday's pitch, then …"), the deadline has to come after that event. Pick the first
+matching weekday *after* the event, not the first one after the post date. Example: a
+Sunday 9/27 post says to pitch Thursday 10/1, fold in the feedback, and have the docs
+done by Monday morning. The deadline is Mon 10/5, not Mon 9/28.
+
+If your computed deadline has already passed, check it before skipping. If the post is
+less than 7 days old, or the date depends on how you read it, ask Chris (uncertain)
+instead of skipping. Only skip, noting "(deadline already passed)" in the summary, when
+the date is unambiguous.
 
 Before creating anything, check `created_tasks` and run `python3 tasks.py list` so you
 never create a duplicate. If an edited post moves a deadline, update the existing task
