@@ -16,6 +16,8 @@ Timezone for everything is **America/New_York**.
 Before anything else, run:
 ```
 git fetch -q origin main && git checkout -q -B main origin/main
+git config user.name "Chris Wu"
+git config user.email "159143435+chriswu06@users.noreply.github.com"
 ```
 Do all your work on `main`, and never create or push any other branch (no `claude/...` branches).
 
