@@ -26,13 +26,6 @@
  },
  "pending_questions": [
   {
-   "id": "Q-20260925-1",
-   "title": "[435] Alumni pitch session (class event)",
-   "due": "2026-10-01",
-   "notes": "Teams pitch design options to alumni experts on Thursday 10/1. https://seam.cs.umd.edu/purtilo/435/blog.html#2026-09-25",
-   "asked_at": "2026-09-30T15:28:05.366647Z"
-  },
-  {
    "id": "Q-20260927-1",
    "title": "[435] Alumni/visitor pitch session (Thu 10/1)",
    "due": "2026-10-01",
