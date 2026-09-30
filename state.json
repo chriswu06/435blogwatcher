@@ -24,22 +24,20 @@
   "2026-09-27": "2026-09-27 A busy new week begins. As mentioned in last Thursday's lab, I have opened a team engagement poll on the mentors site. Please take a moment to complete this right away. I will harvest it over coffee early Wednesday, so whatever constitutes \"end of day\" for you on Tuesday is the effective deadline. Also per lab discussion, let's plan on having each team prepare both a detailed Amazon Press Release and a planning document answering questions according to the Heilmeier Catechism . These should be word documents in project repo (\"amazon.docx\" and \"heilmeier.docx\" respectively). For best effect, I suggest not worring about this immediately. First focus on a kick-ass pitch for our visitors on Thursday, factor in their suggestions, feedback and advice, and then bake that new insight into these planning documents. Remember, we are practicing use of our Principles of SE too, so we will check how well the growing base of materials line up. Shoot for having this in sometime NLT \"over the weekend\" meaning I will check them out over first coffee Monday morning.",
   "2026-09-25": "2026-09-25 We launch this week with mixed effort but with most teams having enjoyed a substantive exchange with the clients. This gets us something to research as we flesh out design options in prep for pitching to our experts (alumni) on Thursday. Our alumni are ready to give deep insights on ways forward; give them deeply researched designs for consideration. This weekend, take some time to reflect on all that needs to go into the full spec for approval (the so-called \"green light to build.\") It's a lot. And it all needs to line up. Remember that principle? \"We get confidence in the quality of software by expressing it in multiple, independent ways that can be checked.\" The spec asks us to express the solution in terms of functionality, cost, test results and much more. We don't want a bag of mixed puzzle pieces that don't look related to one another; we'd love to see a cohesive story colored in about the solution, and supported with piloting. What can we run soon to reduce risk of failure? There are plenty of options. Yes ... there is much on which to reflect this weekend."
  },
- "pending_questions": [
-  {
-   "id": "Q-20260927-1",
-   "title": "[435] Alumni/visitor pitch session (Thu 10/1)",
-   "due": "2026-10-01",
-   "notes": "Class event from 9/25 and 9/27 posts; https://seam.cs.umd.edu/purtilo/435/blog.html#2026-09-27",
-   "asked_at": "2026-09-30T15:28:23.553959Z"
-  }
- ],
- "last_run": "2026-09-30T15:28:23.553959Z",
+ "pending_questions": [],
+ "last_run": "2026-09-30T16:05:00.692937Z",
  "last_error_notified": "2026-09-30T15:20:01.047015Z",
  "created_tasks": [
   {
    "title": "[435] Push amazon.docx + heilmeier.docx to team repo (due Mon 8am)",
    "task_id": "NmtXQmgyUDJ1WUhhVm9xaw",
    "due": "2026-10-05",
+   "source_entry": "2026-09-27"
+  },
+  {
+   "title": "[435] Alumni/visitor pitch session (Thu 10/1)",
+   "task_id": "NjM5TUx6TmJ5M3YzaHJBZQ",
+   "due": "2026-10-01",
    "source_entry": "2026-09-27"
   }
  ]
