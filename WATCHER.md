@@ -15,8 +15,11 @@ Timezone for everything is **America/New_York**.
 `state.json` → `pending_questions` is a list of
 `{"id": "Q-…", "title": …, "start": …, "end": …, "all_day": bool, "description": …, "asked_at": …}`.
 
-If it is non-empty, read `SLACK_CHANNEL_ID` with the Slack connector. Find each question's
-message by searching for its id (e.g. `Q-20260929-1`) and read that message's thread.
+If it is non-empty, use the Slack connector to find each question's message: search
+public and private messages for its id (e.g. `Q-20260929-1`), then read that message's
+thread. If `SLACK_CHANNEL_ID` is set, you can read that channel directly instead. Chris
+might also answer with a standalone message containing the id rather than a thread reply;
+that counts too.
 Only replies from `CHRIS_SLACK_USER_ID` count.
 - A reply meaning yes (yes/y/yep/add it/👍) → create the event (see §4), add it to
   `created_events`, and remove it from `pending_questions`.
@@ -110,8 +113,8 @@ Question ids are `Q-<entry date without dashes>-<n>`. Every question you ask goe
 `pending_questions`.
 
 If the webhook call fails (sandbox network or a non-`ok` response), post the same text
-to `SLACK_CHANNEL_ID` with the Slack connector so the record still exists. Also post it
-if you can't be sure the webhook message landed.
+with the Slack connector so the record still exists: send it to `SLACK_CHANNEL_ID` if
+that's set, otherwise to Chris's own DM (`CHRIS_SLACK_USER_ID`).
 
 Tell Chris that a single reply in the thread can answer several questions, e.g.
 "1 yes, 2 no". When reading replies, match a bare "yes"/"no" to the question if only one
