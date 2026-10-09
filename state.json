@@ -27,10 +27,19 @@
   "2026-10-05": "2026-10-05 Did you find focusing value from those Amazon and Heilmeier exercises? Some common issues flagged ... The Heilmeier docs were generally too wordy. Learn to say something specific and short . Cost estimates were mostly bogus (as we expected ...) Teams often stated what they were willing to spend (hours to invest) and not the time needed to actually build that product. We don't care what you want to spend. We don't care what you are willing to spend. We want to know what the job actually takes. That's a lot harder to come up with, isn't it.",
   "2026-10-06": "2026-10-06 We slightly adjusted the agenda for this week to push requirements expression to Thursday, with lab today. We discussed cost estimation and validation, at least to the level as we will need for use in crafting our green lights. Again, why look at our products in so many ways? We are intentionally creating new perspectives for viewing the space in order to check whether they all line up. This is valid application of one of our principles. When we have opportunity to talk and reason about our software without yet building the software, it turns out we learn a lot about it. We are more likely to build the right thing in the first place. How are those superhero powers working out? Are you using them? Do they work? Reflect on this in a ticket this week so we can track the successes. While you're at it, take a moment to reflect on your original goals statement in the class. How is that coming along? Feel free to update it (not replace it) to make the objectives more testable, and maybe annotate them with this mid point assessment of how we are reaching them.",
   "2026-10-07": "2026-10-07 No regular meetings will be held on Tuesday the 13th as this occurs during the provost's pet fall break. Plan accordingly.",
-  "2026-10-08": "2026-10-08 Discussion today on requirements expression generally, with some specifics relating to our spec process on the class project. Then plenty of team time."
+  "2026-10-08": "2026-10-08 Discussion today on requirements expression generally, with some specifics relating to our spec process on the class project. Then plenty of team time.",
+  "2026-10-09": "2026-10-09 Preparing to survive the server outage: Journaling and ticketing remain important to the project, even if we don't have full access to the regular tools this weekend. Normally we would only accept contemporaneous notes as authoritative for class purposes but this time it is okay to capture notes in a timely fashion on your own machine, then transcribe once the servers are back up. We'll give a day grace for any upload to occur. To be clear, keep capturing timely notes, don't just base the later upload on memory which is often far too kind as to what really happened."
  },
- "pending_questions": [],
- "last_run": "2026-10-08T19:02:56.001936Z",
+ "pending_questions": [
+  {
+   "id": "Q-20261009-1",
+   "title": "[435] Transcribe outage notes to journal/tickets after servers return",
+   "due": "2026-10-12",
+   "notes": "Blog 2026-10-09: capture notes locally during server outage, upload after servers are back, one day grace. https://seam.cs.umd.edu/purtilo/435/blog.html#2026-10-09",
+   "asked_at": "2026-10-09T15:04:16.621725Z"
+  }
+ ],
+ "last_run": "2026-10-09T15:04:16.621745Z",
  "last_error_notified": "2026-09-30T15:20:01.047015Z",
  "created_tasks": [
   {
