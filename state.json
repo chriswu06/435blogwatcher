@@ -30,16 +30,8 @@
   "2026-10-08": "2026-10-08 Discussion today on requirements expression generally, with some specifics relating to our spec process on the class project. Then plenty of team time.",
   "2026-10-09": "2026-10-09 Preparing to survive the server outage: Journaling and ticketing remain important to the project, even if we don't have full access to the regular tools this weekend. Normally we would only accept contemporaneous notes as authoritative for class purposes but this time it is okay to capture notes in a timely fashion on your own machine, then transcribe once the servers are back up. We'll give a day grace for any upload to occur. To be clear, keep capturing timely notes, don't just base the later upload on memory which is often far too kind as to what really happened."
  },
- "pending_questions": [
-  {
-   "id": "Q-20261009-1",
-   "title": "[435] Transcribe outage notes to journal/tickets after servers return",
-   "due": "2026-10-12",
-   "notes": "Blog 2026-10-09: capture notes locally during server outage, upload after servers are back, one day grace. https://seam.cs.umd.edu/purtilo/435/blog.html#2026-10-09",
-   "asked_at": "2026-10-09T15:04:16.621725Z"
-  }
- ],
- "last_run": "2026-10-09T15:04:16.621745Z",
+ "pending_questions": [],
+ "last_run": "2026-10-09T16:04:27.743408Z",
  "last_error_notified": "2026-09-30T15:20:01.047015Z",
  "created_tasks": [
   {
@@ -59,6 +51,12 @@
    "task_id": "SnV1YWZsWGVjLXBfcTFQeA",
    "due": "2026-10-09",
    "source_entry": "2026-10-06"
+  },
+  {
+   "title": "[435] Transcribe outage notes to journal/tickets after servers return",
+   "task_id": "cmxRcVFoV2Fhb1JhR3N3Rw",
+   "due": "2026-10-12",
+   "source_entry": "2026-10-09"
   }
  ]
 }
