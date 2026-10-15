@@ -29,7 +29,8 @@
   "2026-10-07": "2026-10-07 No regular meetings will be held on Tuesday the 13th as this occurs during the provost's pet fall break. Plan accordingly.",
   "2026-10-08": "2026-10-08 Discussion today on requirements expression generally, with some specifics relating to our spec process on the class project. Then plenty of team time.",
   "2026-10-09": "2026-10-09 Preparing to survive the server outage: Journaling and ticketing remain important to the project, even if we don't have full access to the regular tools this weekend. Normally we would only accept contemporaneous notes as authoritative for class purposes but this time it is okay to capture notes in a timely fashion on your own machine, then transcribe once the servers are back up. We'll give a day grace for any upload to occur. To be clear, keep capturing timely notes, don't just base the later upload on memory which is often far too kind as to what really happened.",
-  "2026-10-13": "2026-10-13 We're back! Glad we were able to keep up velocity using email over the last few days, now we can pick up with our regular tools. Please load your reflections, tickets and exchanges now - anything from the last few days that loads promptly will be taken as contemporaneous for purposes of the final exam. Let me know if you see anything more weird than usual moving forward."
+  "2026-10-13": "2026-10-13 We're back! Glad we were able to keep up velocity using email over the last few days, now we can pick up with our regular tools. Please load your reflections, tickets and exchanges now - anything from the last few days that loads promptly will be taken as contemporaneous for purposes of the final exam. Let me know if you see anything more weird than usual moving forward.",
+  "2026-10-15": "2026-10-15 Brief discussion today on some unsurprising properties we would check for in our specs, and then plenty of team time since we need it."
  },
  "pending_questions": [
   {
@@ -40,7 +41,7 @@
    "asked_at": "2026-10-13T17:03:08.182691Z"
   }
  ],
- "last_run": "2026-10-13T17:03:08.182691Z",
+ "last_run": "2026-10-15T21:02:49.403420Z",
  "last_error_notified": "2026-10-13T03:03:45.576590Z",
  "created_tasks": [
   {
