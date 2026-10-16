@@ -32,16 +32,8 @@
   "2026-10-13": "2026-10-13 We're back! Glad we were able to keep up velocity using email over the last few days, now we can pick up with our regular tools. Please load your reflections, tickets and exchanges now - anything from the last few days that loads promptly will be taken as contemporaneous for purposes of the final exam. Let me know if you see anything more weird than usual moving forward.",
   "2026-10-15": "2026-10-15 Brief discussion today on some unsurprising properties we would check for in our specs, and then plenty of team time since we need it."
  },
- "pending_questions": [
-  {
-   "id": "Q-20261013-1",
-   "title": "[435] Upload offline notes/reflections/tickets from outage (ASAP)",
-   "due": "2026-10-14",
-   "notes": "2026-10-13 post: 'Please load your reflections, tickets and exchanges now - anything from the last few days that loads promptly will be taken as contemporaneous.' Deadline vague (now); earlier 10-09 post gave a day's grace. https://seam.cs.umd.edu/purtilo/435/blog.html#2026-10-13",
-   "asked_at": "2026-10-13T17:03:08.182691Z"
-  }
- ],
- "last_run": "2026-10-15T21:02:49.403420Z",
+ "pending_questions": [],
+ "last_run": "2026-10-16T03:03:14.565889Z",
  "last_error_notified": "2026-10-13T03:03:45.576590Z",
  "created_tasks": [
   {
