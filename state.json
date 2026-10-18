@@ -31,7 +31,8 @@
   "2026-10-09": "2026-10-09 Preparing to survive the server outage: Journaling and ticketing remain important to the project, even if we don't have full access to the regular tools this weekend. Normally we would only accept contemporaneous notes as authoritative for class purposes but this time it is okay to capture notes in a timely fashion on your own machine, then transcribe once the servers are back up. We'll give a day grace for any upload to occur. To be clear, keep capturing timely notes, don't just base the later upload on memory which is often far too kind as to what really happened.",
   "2026-10-13": "2026-10-13 We're back! Glad we were able to keep up velocity using email over the last few days, now we can pick up with our regular tools. Please load your reflections, tickets and exchanges now - anything from the last few days that loads promptly will be taken as contemporaneous for purposes of the final exam. Let me know if you see anything more weird than usual moving forward.",
   "2026-10-15": "2026-10-15 Brief discussion today on some unsurprising properties we would check for in our specs, and then plenty of team time since we need it.",
-  "2026-10-16": "2026-10-16 Effort this week paints a surprisingly mixed picture for a week in which specs were due. We move into implementation, and at moment with no approved specs. This bodes poorly. We burn dev time and compound risk (of uncertainty in implementation details.) It would be useful to hear from teams as to where they think they are."
+  "2026-10-16": "2026-10-16 Effort this week paints a surprisingly mixed picture for a week in which specs were due. We move into implementation, and at moment with no approved specs. This bodes poorly. We burn dev time and compound risk (of uncertainty in implementation details.) It would be useful to hear from teams as to where they think they are.",
+  "2026-10-18": "2026-10-18 Time to build. Fast. We are just at the leading edge of our finding out the quality of design decisions. Do our plans fall apart right away? Do we just not follow them? Or do they hold up and bring us value? We'll find out and reflect accordingly. Reflection, yes, let's do this with respect to our goals. Hearken back to your goals statement, and comment in your tickets how you are coming along with that. So far so good? Coming along? Not sure if you are going to reach all of them? And while you are add it, add a ticket to comment on how you are doing with your superhero powers (from the Gallup exercises.) Let's take another snapshot of team engagement. I am opening the Q7 metric on our mentors site as usual. Let's get full response by end of the day Tuesday so I can harvest the data in my early work session on Wednesday."
  },
  "pending_questions": [
   {
@@ -40,9 +41,23 @@
    "due": "",
    "notes": "Blog 2026-10-16: 'It would be useful to hear from teams as to where they think they are.' No deadline given.",
    "asked_at": "2026-10-16T22:11:17.574857Z"
+  },
+  {
+   "id": "Q-20261018-1",
+   "title": "[435] Comment on progress vs. team goals in tickets",
+   "due": "",
+   "notes": "Blog 2026-10-18: 'comment in your tickets how you are coming along with [your goals]'. No deadline given.",
+   "asked_at": "2026-10-18T01:11:21.094285Z"
+  },
+  {
+   "id": "Q-20261018-2",
+   "title": "[435] Add ticket on superhero powers progress (Gallup)",
+   "due": "",
+   "notes": "Blog 2026-10-18: 'add a ticket to comment on how you are doing with your superhero powers'. No deadline given.",
+   "asked_at": "2026-10-18T01:11:21.094285Z"
   }
  ],
- "last_run": "2026-10-16T22:11:17.574880Z",
+ "last_run": "2026-10-18T01:11:21.094285Z",
  "last_error_notified": "2026-10-13T03:03:45.576590Z",
  "created_tasks": [
   {
@@ -68,6 +83,12 @@
    "task_id": "cmxRcVFoV2Fhb1JhR3N3Rw",
    "due": "2026-10-12",
    "source_entry": "2026-10-09"
+  },
+  {
+   "title": "[435] Complete Q7 team engagement poll on mentors site (due 11:59pm)",
+   "task_id": "a2V4dnBzdXcwRjg1eF9Qbw",
+   "due": "2026-10-20",
+   "source_entry": "2026-10-18"
   }
  ]
 }
