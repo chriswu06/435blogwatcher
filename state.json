@@ -44,16 +44,8 @@
   "2026-11-02": "2026-11-02 Sorry for the quick reboot on VMs! Staff alerted to need for some quick security patches. Coming back up shortly.",
   "2026-11-03": "2026-11-03 Discussion today on the big picture of validation."
  },
- "pending_questions": [
-  {
-   "id": "Q-20261101-1",
-   "title": "[435] Update team repo (due 5PM day before design review)",
-   "due": "",
-   "notes": "Blog 2026-11-01: repo updated by COB (5PM) the day before design review. Review date unknown.",
-   "asked_at": "2026-11-01"
-  }
- ],
- "last_run": "2026-11-03T20:11:09.805439Z",
+ "pending_questions": [],
+ "last_run": "2026-11-03T21:11:14.161625Z",
  "last_error_notified": "2026-10-13T03:03:45.576590Z",
  "created_tasks": [
   {
