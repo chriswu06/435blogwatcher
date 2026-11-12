@@ -45,18 +45,11 @@
   "2026-11-03": "2026-11-03 Discussion today on the big picture of validation.",
   "2026-11-05": "2026-11-05 Discussion today on poster basics and messaging, then team time. Our next lab will involve each team pitching a poster, after which we will critique. Here's the catch: we will each pitch another team's poster of yesteryear. How effective was the poster at telling a clear top level story that can be related? We will find out. Tasking is as below: Adaptive Robots Lexico Neural Gradeflow Ecowell Exceed This is great practice in figuring out what to do with our own posters, which we will pitch to one another the following week. That in turn gives plenty of time to fine tune, drop in final data and so on before our semester final delivery.",
   "2026-11-06": "2026-11-06 Another exhausting string of design reviews are in the rack! And we all live to hack again. I saw lots of good work and look forward to the on-going good work needed to get most of these projects to readiness for use and evaluation in customer hands. 435 really only starts when we are using our programs, so let's get on with it. Please follow the steps we worked out in our meetings, and keep me closely looped in on that progress, in particular so I can update our status to reflect that the testing is under way.",
-  "2026-11-10": "2026-11-10 Discussion today on the management big picture - all the stuff that has to go on as topcover so we can get our tech geek on with projects."
+  "2026-11-10": "2026-11-10 Discussion today on the management big picture - all the stuff that has to go on as topcover so we can get our tech geek on with projects.",
+  "2026-11-12": "2026-11-12 Practice pitching posters from other teams of yesteryear, where all we know about the project is what they designed into the graphic. Was this adequate to help someone get a clear picture of what a project was about? What techniques worked (and thus might be ideas we can use in our posters)? What was confusing (and so tell us things not to fall prey to in ours)? And of course we get another chance to tell compact messages in a group before leveraging the balance of the session for team time. To the projects: It is tempting to cheer on completion of finishing touches so we can get products out for acceptance tests, but the language is deceiving. That makes it sound like we are at the end of a process. The project only really starts when it is in client hands for us to learn about our design decisions, and improve them. The sooner we can get to a deployment, the sooner we can get on with the course. Let's step it up. After some point it will be tough to earn full value on the final delivery's \"sustained use\" rubric."
  },
- "pending_questions": [
-  {
-   "id": "Q-20261105-1",
-   "title": "[435] Prepare pitch of assigned past poster for next lab",
-   "due": "",
-   "notes": "Next lab date not stated in 2026-11-05 post; ask Chris for date. https://seam.cs.umd.edu/purtilo/435/blog.html#2026-11-05",
-   "asked_at": "2026-11-05T17:12:02.175002Z"
-  }
- ],
- "last_run": "2026-11-10T20:12:00.139640Z",
+ "pending_questions": [],
+ "last_run": "2026-11-12T12:15:34.879801Z",
  "last_error_notified": "2026-10-13T03:03:45.576590Z",
  "created_tasks": [
   {
